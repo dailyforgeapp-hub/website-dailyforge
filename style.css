@@ -79,3 +79,42 @@ footer {
     border-top: 1px solid #333;
     color: #777;
 }
+
+/* Added for language selector */
+.legal-links {
+    margin-top: 2em;
+}
+
+.legal-links h3 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 1.5em;
+}
+
+.legal-links ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.legal-links li {
+    margin: 10px 0;
+}
+
+.legal-links a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #BB86FC;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+.legal-links a.not-ready {
+    color: #777;
+    cursor: not-allowed;
+}
+
+.legal-links a.not-ready:hover {
+    text-decoration: none;
+}
