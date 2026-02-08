@@ -127,3 +127,29 @@ footer {
 .legal-links a.not-ready:hover {
     text-decoration: none;
 }
+
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.language-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 12px 14px;
+    border: 1px solid #3f3f3f;
+    border-radius: 10px;
+    color: #f5f5f5;
+    background: #1e1e1e;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.language-button:hover {
+    background: #2a2a2a;
+    border-color: #666;
+    text-decoration: none;
+}
